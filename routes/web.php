@@ -39,5 +39,7 @@ Route::get('dd/d1',function (){
     return view('bb.b1');
 });
 
-
+Route::get('dd/d2',function (){
+    return view('bb.b2');
+});
 
